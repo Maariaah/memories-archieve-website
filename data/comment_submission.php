@@ -1,8 +1,10 @@
 <?php
 
-ob_start();
+//adding a new comment from a comment input field
 
+ob_start();
 include_once '../core/init.php';
+
 if (isset($_POST['submit_comment'])) {
     if (isset($_POST['comment']) && $_POST['comment'] != '') {
 
@@ -11,13 +13,11 @@ if (isset($_POST['submit_comment'])) {
         $time = date('H:i:s');
         $id = intval($_GET['id']);
 
-//Dodavanje komentara
+//adding a comment from a database
+
         mysqli_query($conn, "insert into comment(subject, time, name, memo_id) values ('$content', '$time', '$user_id', '$id')");
 
-
-
-//Update broja komentara
-
+//update of a comment number on the main page posts
 
         $result = mysqli_query($conn, "SELECT COUNT(comment.memo_id) as ids FROM comment INNER JOIN all_memories ON all_memories.id = comment.memo_id where all_memories.id = $id");
 

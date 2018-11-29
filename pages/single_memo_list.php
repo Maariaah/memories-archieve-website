@@ -1,5 +1,6 @@
 <?php
-error_reporting(E_ALL);
+
+//single-post version of the main page printing single post
 
 include_once '../core/init.php';
 

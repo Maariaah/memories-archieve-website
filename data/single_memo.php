@@ -1,5 +1,6 @@
 <?php
 
+//single-post version of listing at main page
 
 function single_Memories($conn)
 {

@@ -1,5 +1,7 @@
 <?php
-error_reporting(E_ALL);
+
+//page that prints filtered results
+
 include_once '../data/filters_get.php';
 
 ?>

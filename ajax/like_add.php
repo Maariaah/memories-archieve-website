@@ -1,5 +1,6 @@
 <?php
-error_reporting(E_ALL);
+
+//checking if comment is previously liked and adding 1 if not
 
 include_once '../core/init.php';
 

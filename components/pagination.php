@@ -1,10 +1,7 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: Vestica
- * Date: 9/8/2018
- * Time: 12:11 AM
- */
+
+//pagination
+
 echo " <nav class='col-xs-12 pagination_container'>
             <ul>";
 

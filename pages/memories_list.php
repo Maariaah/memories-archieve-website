@@ -1,5 +1,7 @@
 <?php
 
+//the main page printing list of all posts from a database
+
 include_once '../core/init.php';
 
 

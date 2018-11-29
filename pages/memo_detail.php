@@ -1,8 +1,9 @@
 <?php
-error_reporting(E_ALL);
+
+//post detail page
 
 include_once '../core/init.php';
-//global $id;
+
 
 ?>
 <!DOCTYPE html>

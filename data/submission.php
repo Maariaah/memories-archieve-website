@@ -2,6 +2,7 @@
 
 include '../core/init.php';
 
+//post submission
 
 $name = '';
 $message = '';

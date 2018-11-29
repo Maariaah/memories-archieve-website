@@ -1,5 +1,7 @@
 <?php
 
+//body component/main content of the website
+
 if (!isset($memory['likes'], $memory['comments'], $memory['dislikes'])) {
     $memory['likes'] = 0;
     $memory['comments'] = 0;

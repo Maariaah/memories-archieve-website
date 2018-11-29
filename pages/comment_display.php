@@ -1,5 +1,7 @@
 <?php
 
+//Function which gets all comments from a database
+
 error_reporting(E_ALL);
 
 function getComments($conn)

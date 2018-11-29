@@ -1,4 +1,7 @@
 <?php
+
+//page printing search results
+
 include_once '../core/init.php';
 include_once "../ajax/search.php"
 ?>

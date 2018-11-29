@@ -1,5 +1,7 @@
 <?php
 
+//a header component
+
 echo
 "   <div class='row clearfix' id='header'>
     <div class='background-ribbon wide'></div>

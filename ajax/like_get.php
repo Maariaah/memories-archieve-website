@@ -1,5 +1,6 @@
 <?php
-error_reporting(E_ALL);
+
+//printing a like if user id is set
 
 include_once '../core/init.php';
 

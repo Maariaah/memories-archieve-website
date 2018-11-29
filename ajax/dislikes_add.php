@@ -1,5 +1,7 @@
 <?php
 
+//checking if comment is previously disliked and adding 1 if not
+
 include_once '../core/init.php';
 
 if(isset($_POST['article_id'], $_SESSION['user_id']) && memo_exists($_POST['article_id'], $conn)){

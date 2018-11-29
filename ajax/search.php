@@ -1,5 +1,7 @@
 <?php
-error_reporting(E_ALL);
+
+//getting search input and printing result from a database
+
 include_once '../data/dbh.php';
 
 

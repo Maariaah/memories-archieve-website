@@ -1,4 +1,7 @@
 <?php
+
+//users comment panel
+
 if (isset($comment)){
 echo "
 <div class='panel panel-default'>

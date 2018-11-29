@@ -1,5 +1,6 @@
 <?php
 
+// function that gets all posts from a database and printing 7 per page
 
 function get_Memories($conn)
 {

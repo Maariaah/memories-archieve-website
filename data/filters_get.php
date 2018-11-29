@@ -2,6 +2,8 @@
 
 include 'dbh.php';
 
+//function for filtering a result
+
 function filter($conn)
 {
         $filters[] = array();
