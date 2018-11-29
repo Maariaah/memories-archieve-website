@@ -3,3 +3,4 @@ node_modules
 jQuery.js
 dbh.txt
 memories_query.sql
+.gitignore
