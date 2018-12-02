@@ -1,6 +1,6 @@
- #Your worst memory?
+ # Your worst memory?
  Online community website for anonymously storing traumatic memories
- ##Getting Started
+ ## Getting Started
  Download a project. For custom usage you need to connect your own server to a database.
- ###Prerequisites
+ ### Prerequisites
  Development or production server. 
