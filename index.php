@@ -19,25 +19,22 @@
         <div class="col-xs-12 home-heading">
             <div class="logo"><img src="./assets/images/logo.png" alt=""></div>
             <h1 class='heading'><a href='pages/memories_list.php'><img src="./assets/images/title.png" alt=""></a></h1>
-                <p>Mesto za Vaše najstrašnije traume i sećanja koja su Vam pomenila život. Želiš da pričaš o tome?
-                </p>
+            <p>Mesto za Vaše najstrašnije traume i sećanja koja su Vam pomenila život. Želiš da pričaš o tome?
+            </p>
             <div class="homepage-icons">
                 <div class="icon">
                     <a href="pages/submit_memo.php">
-                    <span><i class="fas fa-pencil-alt"></i></span>
-                    <span class="subtitle">Koje je tvoje najružnie sećanje?</span>
+                        <span><i class="fas fa-pencil-alt"></i></span>
+                        <span class="subtitle">Koje je tvoje najružnie sećanje?</span>
                     </a>
                 </div>
                 <div class="icon">
                     <a href="pages/single_memo_list.php">
-                    <span><i class="fas fa-book-open"></i></span>
-                    <span class="subtitle">Nisi sam.</span>
+                        <span><i class="fas fa-book-open"></i></span>
+                        <span class="subtitle">Nisi sam.</span>
                     </a>
                 </div>
             </div>
-<!--            <div>-->
-<!--                <p>Ne želim da učestvujem</p>-->
-<!--            </div>-->
         </div>
     </div>
 </div>
@@ -45,8 +42,3 @@
 <script src="dist/js/js_main.js"></script>
 </body>
 </html>
-
-<!---dodaj about-->
-<!---drugaciji scroll horiyontalno-->
-<!---dodaj animaciju na pisi-->
-<!---dodaj nesto sto ce biti interaktivno i personalno da natera usera da popuni formu-->
